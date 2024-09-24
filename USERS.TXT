@@ -1,0 +1,29 @@
+INSERT INTO public.usuarios (cpf,nome,telefone,itens_emprestados,curso,email) VALUES
+	 ('46953758856','Guilherme de Paula Figueiredo','16991221159','{}','Engenharia de Controle e Automação','gui.pf@ufu.br'),
+	 ('14534043686','Allan Nunes Garcia','34998899656','{}','Engenharia Elétrica','allan.garcia@ufu.br'),
+	 ('16088493682','Lucas Gontijo Soares Souza','31995389050','{"Ferros de solda sem base:1","Ferro de solda com base:1"}','Engenharia de Controle e Automação','lucasgontijo@ufu.br'),
+	 ('70114629617','Henrique Lima Betti','3499201455','{}','Engenharia de Computação','henrique.betti@ufu.br'),
+	 ('47052622807','Rodrigo Triboni','17996630308',NULL,'Engenharia de Controle e Automação','rodrigo.triboni@ufu.br'),
+	 ('49846025890','Raul Nicolini Rodrigues','11994207951','{}','Engenharia Biomédica','raulnicolini346@gmail.com'),
+	 ('10085448680','Yugo Satoshi Nagao ','34997650226','{}','Engenharia de Controle e Automação','yugosatoshi11@gmail.com'),
+	 ('15591879640','Daniel Moreira Marra','34997301509','{}','Engenharia Elétrica','danielmoreiramarra@gmail.com'),
+	 ('49738940877','Yan Ademar Invernizzi','16993331125','{}','Engenharia Elétrica','yan.invernizzi@ufu.br'),
+	 ('14916522680','Matheus Duarte do Santos Teixeira','34988575223','{}','Engenharia de Controle e Automação','matheusd2001@ufu.br');
+INSERT INTO public.usuarios (cpf,nome,telefone,itens_emprestados,curso,email) VALUES
+	 ('10078997607','Ana Beatriz Fernandes Silva','38997343106','{}','Engenharia Elétrica','beatriz.ana08@ufu.br'),
+	 ('49455414856','Maria Eduarda Serafim de Souza','34991921664','{}','Engenharia Biomédica','maria.serafim@ufu.br'),
+	 ('44212307820','Felipe Assis Andrade','16988540951','{"Arduino Uno:1","Cabo conexão arduino-usb:1"}','Engenharia de Computação','felipe.andrade2@ufu.br'),
+	 ('15662638675','Marcelo Augusto de Souza Rosa','34999153049','{}','Engenharia de Computação','marcelo.augusto@ufu.br'),
+	 ('10550174613','Henrique Almeida Queiroga','38991748645','{}','Engenharia de Controle e Automação','henrique.queiroga@ufu.br'),
+	 ('16777814671','Enzo Fernandes Rodrigues','34988572298','{}','Engenharia Biomédica','enzoferrodrigues@gmail.com'),
+	 ('11393739601','Bruna Isabela de Oliveira','34998250518','{}','Engenharia da Computação','bru.oliveira@ufu.br'),
+	 ('04192090180','Gabriel Henrique Camargo Silva','64981146682','{}','Engenharia de Computação','gabrielhcs1411@ufu.br'),
+	 ('15525290707','João Alexandre Albuquerque De Sá','34984347174','{}','Engenharia da Computação','j.sa@ufu.br'),
+	 ('12429793601','Gabriel Araújo Augustavo','34998072008','{"Relé duplo:1"}','Engenharia de Computação','gabriel.augustavo@ufu.br');
+INSERT INTO public.usuarios (cpf,nome,telefone,itens_emprestados,curso,email) VALUES
+	 ('34892291854','Gabriel Florentino','16982278410','{}','Engenharia Biomédica','gabriel-goncalves@ufu.br'),
+	 ('45434645839','João Pedro Marquetti','1699320300','{"Cabo mini USB:1"}','Engenharia Elétrica','joao.marquetti@ufu.br'),
+	 ('12601162635','Eymi Priscila Berrios Montúfar','34987006727','{"Fita Crepe:1"}','Engenharia de Computação','eymi.montufar@ufu.br'),
+	 ('13266479629','Luis Augusto Queiroz Martins','34998772941',NULL,'Engenharia de Computação','luis.augusto@ufu.br'),
+	 ('713.410.491-59','Gabriel Silva E Santos','34988309993','{}','Engenharia Eletrica','bielsilvaesantos999@gmail.com'),
+	 ('108.246.136-94','Guilherme Saad Botrel','34988176926','{}','Engenharia de Computação','guisaadb3@gmail.com');
