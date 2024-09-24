@@ -1,3 +1,26 @@
+-- public.itens definição
+
+-- Drop table
+
+-- DROP TABLE public.itens;
+
+CREATE TABLE public.itens (
+	id serial4 NOT NULL,
+	nome varchar(255) NOT NULL,
+	localizacao int4 NULL,
+	estoque int4 NOT NULL,
+	CONSTRAINT itens_pkey PRIMARY KEY (id),
+	CONSTRAINT unique_nome UNIQUE (nome)
+);
+
+
+-- public.itens chaves estrangeiras
+
+ALTER TABLE public.itens ADD CONSTRAINT itens_localizacao_fkey FOREIGN KEY (localizacao) REFERENCES public."local"(id);
+
+
+
+
 INSERT INTO public.itens (nome,localizacao,estoque) VALUES
 	 ('Cabo VGA',2,1),
 	 ('Alicates da Caixa de Furadeira',2,0),

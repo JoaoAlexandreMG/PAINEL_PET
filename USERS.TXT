@@ -1,3 +1,21 @@
+-- public.usuarios definição
+
+-- Drop table
+
+-- DROP TABLE public.usuarios;
+
+CREATE TABLE public.usuarios (
+	id serial4 NOT NULL,
+	cpf varchar(14) NOT NULL,
+	nome varchar(100) NOT NULL,
+	telefone varchar(15) NOT NULL,
+	itens_emprestados _text NULL,
+	curso text DEFAULT 'Sem Curso'::text NOT NULL,
+	email text NULL,
+	CONSTRAINT usuarios_cpf_key UNIQUE (cpf),
+	CONSTRAINT usuarios_pkey PRIMARY KEY (id)
+);
+
 INSERT INTO public.usuarios (cpf,nome,telefone,itens_emprestados,curso,email) VALUES
 	 ('46953758856','Guilherme de Paula Figueiredo','16991221159','{}','Engenharia de Controle e Automação','gui.pf@ufu.br'),
 	 ('14534043686','Allan Nunes Garcia','34998899656','{}','Engenharia Elétrica','allan.garcia@ufu.br'),

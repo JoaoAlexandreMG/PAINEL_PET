@@ -1,3 +1,26 @@
+-- public.itens_historico definição
+
+-- Drop table
+
+-- DROP TABLE public.itens_historico;
+
+CREATE TABLE public.itens_historico (
+	id serial4 NOT NULL,
+	usuario_id int4 NOT NULL,
+	item_id int4 NOT NULL,
+	data_emprestimo timestamp NOT NULL,
+	data_devolucao timestamp NULL,
+	data_prevista_devolucao timestamp NULL,
+	CONSTRAINT itens_historico_pkey PRIMARY KEY (id)
+);
+
+
+-- public.itens_historico chaves estrangeiras
+
+ALTER TABLE public.itens_historico ADD CONSTRAINT itens_historico_item_id_fkey FOREIGN KEY (item_id) REFERENCES public.itens(id);
+ALTER TABLE public.itens_historico ADD CONSTRAINT itens_historico_usuario_id_fkey FOREIGN KEY (usuario_id) REFERENCES public.usuarios(id);
+
+
 INSERT INTO public.itens_historico (usuario_id,item_id,data_emprestimo,data_devolucao,data_prevista_devolucao) VALUES
 	 (22,274,'2024-09-13 09:57:17.327644','2024-09-13 12:43:37.356288','2024-09-13 00:00:00'),
 	 (21,151,'2024-09-13 09:30:51.203846','2024-09-13 13:05:44.728754','2024-09-17 00:00:00'),
